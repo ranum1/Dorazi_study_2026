@@ -6,7 +6,7 @@ using UnityEngine.Rendering;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-
+    public PoolManager pool;
     public PlayerManager player;
 
     void Awake()
